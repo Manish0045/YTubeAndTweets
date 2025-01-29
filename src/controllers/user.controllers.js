@@ -23,6 +23,10 @@ const signIn = AsyncHandler(async (req, res) => {
 
 });
 
+const signOut = AsyncHandler(async (req, res) => {
+
+});
+
 const getChannelDetails = AsyncHandler(async (req, res) => {
 
 });
@@ -36,6 +40,7 @@ module.exports = {
     getAllUsers,
     signUp,
     signIn,
+    signOut,
     getChannelDetails,
     getUserProfile
 }
